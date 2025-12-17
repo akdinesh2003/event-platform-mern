@@ -207,6 +207,24 @@ mini-event-platform/
 └── README.md
 ```
 
-## License
+## Photos
 
-MIT
+<img width="1899" height="927" alt="Screenshot 2025-12-17 162352" src="https://github.com/user-attachments/assets/dcd38722-69da-40e6-8efa-c7e41329987a" />
+
+<img width="1902" height="901" alt="Screenshot 2025-12-17 162407" src="https://github.com/user-attachments/assets/db7709a8-4c26-493e-b08e-6372b3bad1f6" />
+
+<img width="1901" height="922" alt="Screenshot 2025-12-17 162428" src="https://github.com/user-attachments/assets/70e9025c-6b83-4217-b7b8-fbe445dd5a83" />
+
+<img width="1908" height="906" alt="Screenshot 2025-12-17 162437" src="https://github.com/user-attachments/assets/0bc46ac8-76d2-4596-84c1-1a3014d59fea" />
+
+<img width="1403" height="903" alt="Screenshot 2025-12-17 162503" src="https://github.com/user-attachments/assets/e79a56ec-9a05-4369-a716-0a40ef473c73" />
+
+<img width="1318" height="893" alt="Screenshot 2025-12-17 162513" src="https://github.com/user-attachments/assets/fd776a17-9c8f-4f51-8ade-40a20fabf2aa" />
+
+<img width="440" height="895" alt="Screenshot 2025-12-17 162530" src="https://github.com/user-attachments/assets/a8030322-255c-4a0d-927f-e78a421a14c1" />
+
+<img width="1477" height="835" alt="Screenshot 2025-12-17 162546" src="https://github.com/user-attachments/assets/d9c0714c-41a8-4981-b22c-540bb35cad6d" />
+
+
+
+
