@@ -1,0 +1,36 @@
+========================================
+EXACT COMMANDS TO PUSH TO YOUR GITHUB
+========================================
+
+Repository: https://github.com/akdinesh2003/event-platform-mern
+
+========================================
+COPY AND RUN THESE COMMANDS ONE BY ONE:
+========================================
+
+git init
+
+git add .
+
+git commit -m "Initial commit: Complete MERN Event Platform with authentication, CRUD, RSVP system, and modern UI"
+
+git remote add origin https://github.com/akdinesh2003/event-platform-mern.git
+
+git branch -M main
+
+git push -u origin main
+
+========================================
+OR RUN ALL AT ONCE:
+========================================
+
+git init && git add . && git commit -m "Initial commit: Complete MERN Event Platform" && git remote add origin https://github.com/akdinesh2003/event-platform-mern.git && git branch -M main && git push -u origin main
+
+========================================
+AFTER PUSHING:
+========================================
+
+Your repository will be live at:
+https://github.com/akdinesh2003/event-platform-mern
+
+========================================

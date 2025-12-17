@@ -1,0 +1,135 @@
+.home {
+  padding: 2rem 0;
+  animation: fadeIn 0.6s ease-in;
+}
+
+.home-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.home-header h1 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeInDown 0.8s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+  border-color: white;
+  background: white;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.search-btn {
+  padding: 1rem 2.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: #667eea;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
+  background: white;
+  border-color: white;
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.filter-checkbox:hover {
+  transform: scale(1.05);
+}
+
+.filter-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.loading, .no-events {
+  text-align: center;
+  padding: 4rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .home-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .search-form {
+    flex-direction: column;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
